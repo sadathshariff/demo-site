@@ -8,7 +8,7 @@
 
 body{
     font-family: 'Nunito', sans-serif;
-    margin: 0px 0px;
+    margin: 0px ;
 }
 
 hr{
@@ -30,6 +30,7 @@ hr{
 .link{
     text-decoration: none;
     padding: 0.5rem 1rem;
+    margin:1rem 0rem ;
 }
 .link-primary{
     background-color:var(--primary-color);
@@ -114,7 +115,10 @@ hr{
     color: white;
     border-top-right-radius: 1rem;
 }
-
+.footer .footer-header{
+    font-weight: bold;
+    font-size: large;
+}
 .footer .link{
     color:white;
 }
