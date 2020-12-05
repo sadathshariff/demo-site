@@ -38,7 +38,7 @@ hr{
 .link{
     box-sizing: border-box;
     text-decoration: none;
-    padding: 0.5rem 1rem;
+    padding: 0.5rem 1rem; 
     
 }
 .link-primary{
@@ -87,7 +87,7 @@ hr{
 }
 .navigation .nav-link{
     display: inline-block;
-    padding:1rem 1rem;
+    padding: 1rem 1rem;
 }
 .navigation .list-item-inline{
     display: inline-block;
@@ -138,6 +138,7 @@ hr{
 }
 .off {
     background-color: var(--off-white);
+    
 }
 .section .link:hover{
     box-shadow: 3px 4px var(--light-indigo);
@@ -169,7 +170,8 @@ hr{
     display: inline-block;
     padding-inline-start: 0px;
     padding: 1rem 1rem;
-    margin-left: 5.5rem;
+    margin-left: 5rem;
+    margin-right: 2.5rem;
 }
 .footer .link{
     color:white;
