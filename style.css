@@ -71,7 +71,7 @@ hr{
     list-style-type: none;
 }
 .list-item-inline{
-    display:inline;
+    display:grid;
     padding: 0rem 0.5rem ;
 }
 
@@ -84,6 +84,13 @@ hr{
 }
 .navigation .nav-pills{
     text-align: right;
+}
+.navigation .nav-link{
+    display: inline-block;
+    padding:1rem 1rem;
+}
+.navigation .list-item-inline{
+    display: inline-block;
 }
 .navigation  .link{
     color:white;
