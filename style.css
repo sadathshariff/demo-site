@@ -156,6 +156,7 @@ hr{
     font-size: large;
     text-align: center;
     width: 100%;
+    margin: auto;
 }
 .footer-item{
     display: inline-block;
