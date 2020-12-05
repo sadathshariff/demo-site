@@ -1,18 +1,26 @@
 @import url('https://fonts.googleapis.com/css2?family=Nunito:wght@400;700&display=swap');
 
 :root {
-    --primary-color:rgb(134, 28, 138)/**:#9CA3AF **/ ;
+    --primary-color:#7F868A; /**:#9CA3AF  :rgb(134, 28, 138 **/ ;
     --light-indigo:#818CF8;
     --off-white:#F3F4F6;
 }
 
 body{
     font-family: 'Nunito', sans-serif;
-    margin: 0px ;
+    margin: 0px;
+}
+body p{
+    font-size: 19px;
 }
 
 hr{
     margin: 2rem 0rem;
+}
+/** spaces **/
+
+.margin-md {
+    margin: 2rem;
 }
 
 /** container **/
@@ -28,9 +36,10 @@ hr{
 
 /** links **/
 .link{
+    box-sizing: border-box;
     text-decoration: none;
     padding: 0.5rem 1rem;
-    margin:1rem 0rem ;
+    
 }
 .link-primary{
     background-color:var(--primary-color);
@@ -42,6 +51,17 @@ hr{
     border-radius: 0.5rem;
     border: 1px solid var(--primary-color);
 
+}
+.space{
+    text-transform: uppercase;
+    letter-spacing: 0.1rem;
+    display: block;
+    margin-bottom: 1rem;
+    box-sizing: border-box;
+    max-width: 12rem;
+}
+.space:hover{
+    box-shadow: 4px 4px var(--light-indigo);
 }
 
 /** lists **/
@@ -60,7 +80,7 @@ hr{
     background-color: var(--primary-color);
     color: White;
     padding: 1rem;
-    border-bottom-left-radius: 1rem;
+    border-bottom-left-radius: 2rem;
 }
 .navigation .nav-pills{
     text-align: right;
@@ -74,14 +94,19 @@ hr{
 .navigation .link-active{
     font-weight: bold;
 }
-
+.navigation .link:hover{
+    box-shadow: 0px 4px var(--light-indigo);
+}
 /** header **/
 .hero {
     padding: 2rem;
+    padding-top: 5rem;
+    text-align: center;
 }
 .hero .hero-img{
-    min-width: 250px;
+    max-width: 350px;
     display: block;
+    height: auto;
     margin: auto;
 }
 #heading-inverted{
@@ -101,28 +126,51 @@ hr{
 .section h1{
     text-align: center;
 }
-
+.section .off .font{
+    font-size: 18px;
+}
 .off {
     background-color: var(--off-white);
 }
-
+.section .link:hover{
+    box-shadow: 3px 4px var(--light-indigo);
+}
+.section .off .link:hover{
+    box-shadow: 3px 4px var(--light-indigo);
+}
+.link-blog:hover{
+    box-shadow: 3px 4px var(--light-indigo);
+}
 
 /** footer **/
 .footer{
     background-color: var(--primary-color);
     padding: 1rem;
-    text-align: center;
+    border-top-right-radius: 2rem;
     color: white;
-    border-top-right-radius: 1rem;
+    font-weight: bold;
 }
 .footer .footer-header{
     font-weight: bold;
+    padding-top: 1rem;
     font-size: large;
+    text-align: center;
+    width: 100%;
+}
+.footer-item{
+    display: inline-block;
+    padding-inline-start: 0px;
+    padding: 1rem 1rem;
+    margin-left: 5.5rem;
 }
 .footer .link{
     color:white;
 }
 
 .footer ul{
-    scroll-padding-inline-start: 0px;
+    scroll-padding-inline-start:10px;
 }
+.footer .link:hover{
+    box-shadow: 0px 4px var(--light-indigo);
+}
+
