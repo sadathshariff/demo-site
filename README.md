@@ -2,13 +2,10 @@
 
 Hey Welcome to my portfolio I have just started learning web development !!
 
-For now , I know
+I have completed My B.tech in ECE from Presidency University, 
 
-1. HTML5 and CSS3
+I am Intrested in Front-End Engineering 
 
-2. JavaScript
+you can see my Portfolio using the link below :
 
-3.NodeJS
-
-4.Repl.it
-
+[Sadathulla Shariff](https://sadathullashariff.netlify.app/)
