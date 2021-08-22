@@ -1,184 +1,183 @@
-@import url('https://fonts.googleapis.com/css2?family=Nunito:wght@400;700&display=swap');
+@import url("https://fonts.googleapis.com/css2?family=Nunito:wght@400;700&display=swap");
 
 :root {
-    --primary-color:#7F868A; /**:#9CA3AF  :rgb(134, 28, 138 **/ ;
-    --light-indigo:#818CF8;
-    --off-white:#F3F4F6;
+  --primary-color: #7f868a; /**:#9CA3AF  :rgb(134, 28, 138 **/
+  --light-indigo: #818cf8;
+  --off-white: #f3f4f6;
 }
 
-body{
-    font-family: 'Nunito', sans-serif;
-    margin: 0px;
+body {
+  font-family: "Nunito", sans-serif;
+  margin: 0px;
 }
-body p{
-    font-size: 19px;
+body p {
+  font-size: 19px;
 }
 
-hr{
-    margin: 2rem 0rem;
+hr {
+  margin: 2rem 0rem;
 }
 /** spaces **/
 
 .margin-md {
-    margin: 2rem;
+  margin: 2rem;
 }
 
 /** container **/
 .container {
-    padding-left: 1rem;
-    padding-right: 1rem;
+  padding-left: 1rem;
+  padding-right: 1rem;
 }
 
 .container-center {
-    max-width: 600px;
-    margin: auto;
+  max-width: 600px;
+  margin: auto;
 }
 
 /** links **/
-.link{
-    box-sizing: border-box;
-    text-decoration: none;
-    padding: 0.5rem 1rem; 
-    
+.link {
+  box-sizing: border-box;
+  text-decoration: none;
+  padding: 0.5rem 1rem;
 }
-.link-primary{
-    background-color:var(--primary-color);
-    border-radius: 0.5rem;
-    color:white;
+.link-primary {
+  background-color: var(--primary-color);
+  border-radius: 0.5rem;
+  color: white;
 }
-.link-secondary{
-    color: var(--primary-color);
-    border-radius: 0.5rem;
-    border: 1px solid var(--primary-color);
-
+.link-secondary {
+  color: var(--primary-color);
+  border-radius: 0.5rem;
+  border: 1px solid var(--primary-color);
 }
-.space{
-    text-transform: uppercase;
-    letter-spacing: 0.1rem;
-    display: block;
-    margin-bottom: 1rem;
-    box-sizing: border-box;
-    max-width: 12rem;
+.space {
+  text-transform: uppercase;
+  letter-spacing: 0.1rem;
+  display: block;
+  margin-bottom: 1rem;
+  box-sizing: border-box;
+  max-width: 12rem;
 }
-.space:hover{
-    box-shadow: 4px 4px var(--light-indigo);
+.space:hover {
+  box-shadow: 4px 4px var(--light-indigo);
 }
 
 /** lists **/
 
-
 .list-non-bullet {
-    list-style-type: none;
+  list-style-type: none;
 }
-.list-item-inline{
-    display:grid;
-    padding: 0rem 0.5rem ;
+.list-item-inline {
+  display: grid;
+  padding: 0rem 0.5rem;
 }
 /**nav bar **/
-.navigation{
-    background-color: var(--primary-color);
-    color: White;
-    padding: 1rem;
-    border-bottom-left-radius: 2rem;
+.navigation {
+  background-color: var(--primary-color);
+  color: White;
+  padding: 1rem;
+  border-bottom-left-radius: 2rem;
 }
-.navigation .nav-pills{
-    display: flex;
-    align-content: flex-end;
-    justify-content: flex-end;
-} 
-.navigation .list-item-inline{
-    display: inline-block;
+.navigation .nav-pills {
+  display: flex;
+  align-content: flex-end;
+  justify-content: flex-end;
 }
-.navigation .link{
-    color:white;
+.navigation .list-item-inline {
+  display: inline-block;
 }
-.navigation .nav-brand{
-    font-weight: bold;
+.navigation .link {
+  color: white;
 }
-.navigation .link-active{
-    font-weight: bold;
+.navigation .nav-brand {
+  font-weight: bold;
 }
-.navigation .link:hover{
-    box-shadow: 0px 4px var(--light-indigo);
+.navigation .link-active {
+  font-weight: bold;
+}
+.navigation .link:hover {
+  box-shadow: 0px 4px var(--light-indigo);
 }
 
 /** header **/
 .hero {
-    padding: 2rem;
-    padding-top: 5rem;
-    text-align: center;
+  padding: 2rem;
+  padding-top: 5rem;
+  text-align: center;
 }
-.hero .hero-img{
-    max-width: 350px;
-    display: block;
-    height: auto;
-    margin: auto;
+.hero .hero-img {
+  max-width: 350px;
+  display: block;
+  height: auto;
+  margin: auto;
 }
-#heading-inverted{
-    color: var(--primary-color);
+#heading-inverted {
+  color: var(--primary-color);
 }
-.hero .hero-heading{
-    color:var(--light-indigo) ;
-    padding: 1rem;
-    text-align: center;
+.hero .hero-heading {
+  color: var(--light-indigo);
+  padding: 1rem;
+  text-align: center;
 }
 
 /** SECTION **/
 
 .section {
-    padding: 2rem;
+  padding: 2rem;
 }
-.section h1{
-    text-align: center;
+.section h1 {
+  text-align: center;
 }
-.section .off .font{
-    font-size: 18px;
+.section .off .font {
+  font-size: 18px;
 }
 .off {
-    background-color: var(--off-white);
-    
+  background-color: var(--off-white);
 }
-.section .link:hover{
-    box-shadow: 3px 4px var(--light-indigo);
+.section .link:hover {
+  box-shadow: 3px 4px var(--light-indigo);
 }
-.section .off .link:hover{
-    box-shadow: 3px 4px var(--light-indigo);
+.section .off .link:hover {
+  box-shadow: 3px 4px var(--light-indigo);
 }
-.link-blog:hover{
-    box-shadow: 3px 4px var(--light-indigo);
+.link-blog:hover {
+  box-shadow: 3px 4px var(--light-indigo);
 }
 
 /** footer **/
-.footer{
-    background-color: var(--primary-color);
-    padding: 1rem;
-    color: white;
-    font-weight: bold;
-    border-top-right-radius: 2rem;
+.footer {
+  background-color: var(--primary-color);
+  padding: 1rem;
+  color: white;
+  font-weight: bold;
+  border-top-right-radius: 2rem;
 }
-.footer .footer-header{
-    font-size: large;
-    text-align: center;
-    width: 100%;
-    margin: auto;
+.footer .footer-header {
+  font-size: large;
+  text-align: center;
+  width: 100%;
+  margin: auto;
 }
-.footer-item{
-    display:inline-block;
-    text-align: center;
-    align-content: center;
-    padding-inline-start: 0rem;
-    padding: 1.3rem 1.4rem;
-    margin-left: 4rem;
-    margin-right: 2rem;
+/* .footer-item {
+  display: inline-block;
+  text-align: center;
+  align-content: center;
+  /* padding: 1.3rem 1.4rem; */
+/* margin-left: 4rem;
+  margin-right: 2rem; */
+
+.footer .social-links {
+  padding-inline-start: 0px;
+  text-align: center;
+  display: flex;
+  align-items: center;
+  justify-content: space-evenly;
+  flex-direction: row;
 }
-.footer .link{
-    color:white;
+.footer .link {
+  color: white;
 }
 
-.footer ul{
-    scroll-padding-inline-start:10px;
+.footer .link:hover {
+  box-shadow: 0px 4px var(--light-indigo);
 }
-.footer .link:hover{
-    box-shadow: 0px 4px var(--light-indigo);
-}
-
