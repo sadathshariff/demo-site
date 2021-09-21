@@ -27,6 +27,7 @@ hr {
 .container {
   padding-left: 1rem;
   padding-right: 1rem;
+  padding: 1rem;
 }
 
 .container-center {
@@ -102,7 +103,7 @@ hr {
 /** header **/
 .hero {
   padding: 2rem;
-  padding-top: 5rem;
+  padding-top: 3rem;
   text-align: center;
 }
 .hero .hero-img {
@@ -171,7 +172,7 @@ hr {
   text-align: center;
   display: flex;
   align-items: center;
-  justify-content: space-evenly;
+  justify-content: center;
   flex-direction: row;
 }
 .footer .link {
