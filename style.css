@@ -112,13 +112,20 @@ hr {
   height: auto;
   margin: auto;
 }
-#heading-inverted {
+#heading-inverted,
+#extra-inverted {
   color: var(--primary-color);
 }
+
 .hero .hero-heading {
   color: var(--light-indigo);
   padding: 1rem;
   text-align: center;
+}
+
+hr {
+  border-radius: 50%;
+  color: var(--primary-color);
 }
 
 /** SECTION **/
